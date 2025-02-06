@@ -35,14 +35,6 @@
   justify-content: space-between;
  }
 
- .dropdown{
-  padding: 30px;
-  box-shadow: 0px 4px 50px opx rgba(14, 14, 14, 0.15);
- }
- .quote{
-  padding: 20px;
-  background-image: src;
- }
  
 
   /* nav style */
@@ -103,13 +95,45 @@
   .Pillars .ideas{
     border: 2px;
     margin: 24px;
+    border-radius: 10px;
+    padding: 10px;
+    box-shadow: 0px 6px 40px 0px rgba(14, 14, 14, 0.15);
   }
+
+  /* vision style*/
   .cl-blue{
-    background-color: #5490F5;
+    background-color: rgba(84, 144, 245, 0.2);
   }
 
   .cl-gray{
     background-color: #F7EBCF;
+  }
+  .btn-lite-green{
+    background-color: #09A15C;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 17px;
+  }
+  .btn-lite-blue{
+    background-color: #5490F5;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 17px;
+  }
+  .btn-lite-gray{
+    background-color: #FFC239;
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    border-radius: 5px;
+    border: none;
+    padding: 17px;
   }
 
   /* table style */
@@ -119,6 +143,13 @@
   }
   .table td{
     border: 1px #0e0e0e
+  }
+
+  /* quote style */
+  .quote{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: top left;
   }
 
   /* Recent style */
@@ -134,9 +165,46 @@
   justify-content: space-between;
 }
   .amount{
-    padding: 30px;
-    border: 2px solid black;
+    padding: 40px;
+    border: none;
     gap: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 40px 0px rgba(14, 14, 14, 0.15);
   }
+ 
+  .input{
+    width: 1032px;
+    height: 64px;
+    margin-top: 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 124px;
+  }
+
+  .done{
   
+    background-color: #006A50;
+    padding: 17px 34px;
+    border-radius: 5px;
+    border: none;
+    font-size: 18;
+    font-weight: 700;
+    color: #FFFFFF;
+
+    
+  }
+
+  .email{
+    width: 600px;
+    height: 44px;
+  }
+
+  .news{
+    text-align: center;
+    padding: 80px 265px;
+  }
+
+  footer{
+    text-align: center;
+  }
   
