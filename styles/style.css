@@ -34,6 +34,15 @@
   display: flex;
   justify-content: space-between;
  }
+
+ .dropdown{
+  padding: 30px;
+  box-shadow: 0px 4px 50px opx rgba(14, 14, 14, 0.15);
+ }
+ .quote{
+  padding: 20px;
+  background-image: src;
+ }
  
 
   /* nav style */
@@ -101,6 +110,33 @@
 
   .cl-gray{
     background-color: #F7EBCF;
+  }
+
+  /* table style */
+
+  .table{
+    border-collapse: collapse;
+  }
+  .table td{
+    border: 1px #0e0e0e
+  }
+
+  /* Recent style */
+  .bangladesh-satellite{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .satellite-img{
+    padding: 48px;
+  }
+.donate{
+  display: flex;
+  justify-content: space-between;
+}
+  .amount{
+    padding: 30px;
+    border: 2px solid black;
+    gap: 30px;
   }
   
   
