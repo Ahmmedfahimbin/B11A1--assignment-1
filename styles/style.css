@@ -8,6 +8,10 @@
   }
 
 
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
   /* shared style */
   .bg-color{
     background-color: #C6E4D6;
@@ -72,6 +76,7 @@
     justify-content: space-between;
     padding: 117px 60px;
     align-items: center;
+    border-radius: 20px;
   }
   .banner-content{
     width: 622px;
@@ -150,6 +155,7 @@
   /* quote style */
   .quote{
     background-image: url(../assets/quote-bg.png);
+    margin-left: 24px;
     background-repeat: no-repeat;
     box-shadow: 0px 6px 40px 0px rgba(14, 14, 14, 0.15);
     border-radius: 20px;
@@ -164,42 +170,36 @@
     border-radius: 20px;
     padding: 24px;
     margin: 24px 0px;
+    gap: 48px;
   }
-  .bangladesh-satellite .satellite-img{
-    padding: 48px;
-    border-radius: 20px;
+  .satellite-img .img{
+    border-radius: 20px; 
   }
-
-.donate{
+ .donate-section{
+  text-align: center;
+  width: 1280px;
+  height: 600px;
+ }
+ .donate{
   display: flex;
-  justify-content: space-between;
-}
+  justify-content: space-evenly;
+ }
   .amount{
     padding: 40px;
     border: none;
     gap: 30px;
     border-radius: 10px;
-    box-shadow: 0px 6px 40px 0px rgba(14, 14, 14, 0.15);
+    box-shadow: 0px 6px 6px 0px rgba(14, 14, 14, 0.15);
   }
  
   .input{
     width: 1032px;
     height: 64px;
-    margin-top: 32px;
-    margin-left: 124px;
     text-align: center;
     font-size: 16px;
-  }
-
-  .done{
-    background-color: #006A50;
-    padding: 17px 34px;
-    border-radius: 5px;
+    margin-bottom: 32px;
+    box-shadow: 0px 6px 6px 0px rgba(14, 14, 14, 0.15);
     border: none;
-    font-size: 18;
-    font-weight: 700;
-    color: #FFFFFF; 
-    margin: 32px 600px 200px 600px;
   }
 
   .email{
@@ -215,4 +215,16 @@
   footer{
     text-align: center;
   }
+
+ /* hover style */
+
+  .ideas:hover, .input:hover, .amount:hover{
+  background-color: #5490F5;
+ }
+
+ .btn-green:hover, .btn-lite-blue:hover, .btn-lite-gray:hover, .btn-lite-green:hover{
+  /* width: 200px;
+  height: 50px; */
+  transform: scale(1.2);
+ }
   
